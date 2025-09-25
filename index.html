@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda - M Faiz Abdillah</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">CV Faiz Abdillah</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="tentang.html">Tentang</a></li>
+          <li><a href="portofolio.html">Portofolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+        <div class="nav-extra">
+          <button id="theme-toggle"><i class="fas fa-sun"></i></button>
+          <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home">
+            <div class="container">
+                <div class="hero-container">
+                    <div class="hero-image">
+                        <img src="assets/images/profile.jpeg" alt="Foto Profil">
+                    </div>
+                    <div class="hero-text">
+                        <p class="subtitle">Halo, saya M Faiz Abdillah</p>
+                        <h1>Web Developer & <span id="typing-effect"></span></h1>
+                        <p>Saya merancang dan membangun aplikasi web yang modern, fungsional, dan intuitif.</p>
+                        <a href="portofolio.html" class="btn">Lihat Portofolio Saya</a>
+                    </div>
+                </div>
+            </div>
+      </section>
+
+      <!-- Featured Projects Section -->
+      <section id="featured-projects" class="home-section">
+        <div class="container">
+          <h2 class="section-heading">Proyek Unggulan</h2>
+          <div class="portfolio-grid">
+            <!-- Featured Project 1 -->
+            <div class="portfolio-item" data-category="web">
+              <img src="assets/images/project1.jpg" alt="Proyek 1" />
+              <div class="portfolio-overlay">
+                <h3>Website E-commerce Modern</h3>
+                <p>Klik untuk detail</p>
+              </div>
+            </div>
+            <!-- Featured Project 2 -->
+            <div class="portfolio-item" data-category="app">
+              <img src="assets/images/project2.jpg" alt="Proyek 2" />
+              <div class="portfolio-overlay">
+                <h3>Aplikasi Produktivitas</h3>
+                <p>Klik untuk detail</p>
+              </div>
+            </div>
+          </div>
+          <div class="section-link">
+            <a href="portofolio.html" class="btn">Lihat Semua Proyek</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Latest Articles Section -->
+      <section id="latest-articles" class="home-section">
+        <div class="container">
+          <h2 class="section-heading">Artikel Terbaru</h2>
+          <div class="blog-container">
+            <!-- Latest Article 1 -->
+            <div class="blog-post-card">
+              <img
+                src="assets/images/Brain_Circuit_Encoding.avif"
+                alt="Blog Post Image 1"
+              />
+              <div class="blog-content">
+                <h3>
+                  Masa Depan AI: Dari Asisten Virtual Hingga Seni Generatif
+                </h3>
+                <p class="post-date">25 September 2025</p>
+                <p>
+                  Kecerdasan buatan atau Artificial Intelligence (AI) bukan lagi
+                  sekadar konsep dalam film fiksi ilmiah. Kini, AI telah menyatu
+                  dalam kehidupan kita sehari-hari, mulai dari asisten virtual
+                  yang menjawab pertanyaan kita hingga...
+                </p>
+                <a
+                  href="https://faizireng969.blogspot.com/2025/09/masa-depan-ai-dari-asisten-virtual.html"
+                  class="read-more"
+                  >Baca Selengkapnya <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+            <!-- Latest Article 2 -->
+            <div class="blog-post-card">
+              <img src="assets/images/blog2.jpg" alt="Blog Post Image 2" />
+              <div class="blog-content">
+                <h3>CSS Tricks yang Wajib Kamu Coba</h3>
+                <p class="post-date">15 September 2025</p>
+                <a href="blog.html" class="read-more"
+                  >Baca Selengkapnya <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="section-link">
+            <a href="blog.html" class="btn">Lihat Semua Artikel</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Call to Action Section -->
+      <section id="home-cta" class="cta-section">
+        <h2>Tertarik untuk Bekerja Sama?</h2>
+        <p>
+          Saya selalu terbuka untuk diskusi, kolaborasi, atau sekadar bertukar
+          pikiran. Hubungi saya!
+        </p>
+        <a href="kontak.html" class="btn btn-light">Hubungi Saya</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 M Faiz Abdillah. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
